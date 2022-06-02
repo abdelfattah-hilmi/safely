@@ -41,7 +41,7 @@ dev_dependencies:
   icons_launcher: ^1.1.9
 
 flutter_icons:
-  image_path: 'assets/imgs/SafelySystems.PNG'
+  image_path: 'assets/imgs/SafelySystems1.png'
   ios: true
   android: true
   # The "flutter_lints" package below contains a set of recommended lints to
