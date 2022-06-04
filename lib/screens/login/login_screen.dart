@@ -24,6 +24,8 @@ class _LoginScreenState extends State<LoginScreen> {
               color: Colors.amberAccent,
             ),
           ),
+
+
           Container(
             width: width,
             margin: const EdgeInsets.only(left: 20,right: 20),
@@ -47,46 +49,44 @@ class _LoginScreenState extends State<LoginScreen> {
                   const SizedBox(
                     height: 50,
                   ),
-                  Container(
-                    decoration:  BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(30),
-                      boxShadow: [
-                        BoxShadow(
-                          blurRadius: 10,
-                          offset: const Offset(1, 1),
-                          color: Colors.grey.withOpacity(0.5),
-                        )
-                        ]
-                    ),
-                    child: TextField(
-                      cursorColor: Colors.grey,
-                      style: const TextStyle(
-                        fontSize: 20,
-                      ),
-                      textAlignVertical: TextAlignVertical.center,
-                      decoration: InputDecoration(
-                        focusedBorder:  OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(30),
-                          borderSide: const BorderSide(
-                            color: Colors.white
-                          )
-                        ),
-                        enabledBorder:  OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(30),
-                          borderSide: const BorderSide(
-                            color: Colors.white
-                          )
-                        ),
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(30)
-                        )
-                      ),
-                    ),
-                  )
+                
               ],
             ),  
-          )
+          ),
+          Container(
+            width: width,
+            margin: const EdgeInsets.only(left: 20,right: 20),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: const [
+                TextField(
+                  decoration: InputDecoration(
+                    label: Text('Email'),
+                    prefixIcon: Icon(Icons.mail_outlined),
+                    prefixIconColor: Color(0xff652351),
+
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(50)),
+                      ),
+
+                    //!! define a color schema,colors are only to show where they can be changed
+
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(50)),
+                      borderSide: BorderSide(
+                        color: Color(0xff652351),
+                        )
+                      ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(50)),
+                      borderSide: BorderSide(
+                        color: Color(0xff652351),
+                          )
+                        ),
+                    ),  
+                ),
+              ],)
+          ),
         ],
       )
     );
