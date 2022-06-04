@@ -1,16 +1,14 @@
 # safely
 
-A new Flutter project.
+An app to monitor your Home security system
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+we are developping a Home security system using a raspberry pi, this client mobile app is a simple way to monitor it.
 
-A few resources to get you started if this is your first Flutter project:
+## Getting started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+clone the project and install dependencies and connect to firebase
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+steps coming later...
+
