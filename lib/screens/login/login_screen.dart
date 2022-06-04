@@ -31,14 +31,14 @@ class _LoginScreenState extends State<LoginScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children:  [
                 const Text(
-                  "Hello",
+                  'Hello',
                   style: TextStyle(
                     fontSize: 60,
                     fontWeight: FontWeight.bold,
                   ),
                   ),
                   Text(
-                  "Sign-in to your account",
+                  'Sign-in to your account',
                   style: TextStyle(
                     fontSize: 20,
                     color: Colors.grey[500],
